@@ -6,13 +6,16 @@
 @keyframes c0{0%,10.00%{opacity:0}10.17%,94%{opacity:1}100%{opacity:0}}.c0{animation:c0 6s steps(1) infinite}
 @keyframes c1{0%,14.17%{opacity:0}14.33%,94%{opacity:1}100%{opacity:0}}.c1{animation:c1 6s steps(1) infinite}
 @keyframes c2{0%,18.33%{opacity:0}18.50%,94%{opacity:1}100%{opacity:0}}.c2{animation:c2 6s steps(1) infinite}
-@keyframes caret{0%,10.00%{transform:translateX(0)}10.17%,14.17%{transform:translateX(10.2px)}14.33%,18.33%{transform:translateX(20.4px)}18.50%,100%{transform:translateX(30.599999999999998px)}}
+@keyframes c3{0%,22.50%{opacity:0}22.67%,94%{opacity:1}100%{opacity:0}}.c3{animation:c3 6s steps(1) infinite}
+@keyframes c4{0%,26.67%{opacity:0}26.83%,94%{opacity:1}100%{opacity:0}}.c4{animation:c4 6s steps(1) infinite}
+@keyframes c5{0%,30.83%{opacity:0}31.00%,94%{opacity:1}100%{opacity:0}}.c5{animation:c5 6s steps(1) infinite}
+@keyframes caret{0%{transform:translateX(0)}10.00%{transform:translateX(0px)}10.17%{transform:translateX(10.2px)}14.17%{transform:translateX(10.2px)}14.33%{transform:translateX(20.4px)}18.33%{transform:translateX(20.4px)}18.50%{transform:translateX(30.599999999999998px)}22.50%{transform:translateX(30.599999999999998px)}22.67%{transform:translateX(40.8px)}26.67%{transform:translateX(40.8px)}26.83%{transform:translateX(51px)}30.83%{transform:translateX(51px)}31.00%{transform:translateX(61.199999999999996px)}100%{transform:translateX(61.199999999999996px)}}
 .caret{animation:caret 6s steps(1) infinite,blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
-@keyframes res{0%,22.50%{opacity:0;transform:translateY(6px)}27.50%,94%{opacity:1;transform:none}100%{opacity:0}}
-@keyframes sel{0%,45.83%{opacity:0}47.50%,94%{opacity:1}100%{opacity:0}}
-.sel{animation:sel 6s linear infinite}.r0{animation:res 6s ease-out infinite;animation-delay:0s}@keyframes res0{0%,22.50%{opacity:0;transform:translateY(6px)}27.50%,94%{opacity:1;transform:none}100%{opacity:0}}
-.r1{animation:res 6s ease-out infinite;animation-delay:0s}@keyframes res1{0%,24.50%{opacity:0;transform:translateY(6px)}29.50%,94%{opacity:1;transform:none}100%{opacity:0}}
-.r2{animation:res 6s ease-out infinite;animation-delay:0s}@keyframes res2{0%,26.50%{opacity:0;transform:translateY(6px)}31.50%,94%{opacity:1;transform:none}100%{opacity:0}}
+@keyframes res{0%,35.00%{opacity:0;transform:translateY(6px)}40.00%,94%{opacity:1;transform:none}100%{opacity:0}}
+@keyframes sel{0%,58.33%{opacity:0}60.00%,94%{opacity:1}100%{opacity:0}}
+.sel{animation:sel 6s linear infinite}.r0{animation:res 6s ease-out infinite;animation-delay:0s}@keyframes res0{0%,35.00%{opacity:0;transform:translateY(6px)}40.00%,94%{opacity:1;transform:none}100%{opacity:0}}
+.r1{animation:res 6s ease-out infinite;animation-delay:0s}@keyframes res1{0%,37.00%{opacity:0;transform:translateY(6px)}42.00%,94%{opacity:1;transform:none}100%{opacity:0}}
+.r2{animation:res 6s ease-out infinite;animation-delay:0s}@keyframes res2{0%,39.00%{opacity:0;transform:translateY(6px)}44.00%,94%{opacity:1;transform:none}100%{opacity:0}}
 </style>
 <defs>
   <clipPath id="clip"><rect width="620" height="380" rx="24"/></clipPath>
@@ -30,21 +33,21 @@
   <rect x="36" y="140" width="548" height="210" rx="16" fill="#0d0d10" stroke="#ece8df" stroke-opacity=".12"/>
   <circle cx="66" cy="172" r="7" fill="none" stroke="#9a968d" stroke-width="2"/><path d="M71 177 l5 5" stroke="#9a968d" stroke-width="2" stroke-linecap="round"/>
   <rect x="500" y="161" width="64" height="22" rx="6" fill="#24242c"/><text x="532" y="176" text-anchor="middle" class="m" font-size="11" fill="#b9b5ac">Ctrl K</text>
-  <path d="M36 200 h548" stroke="#ece8df" stroke-opacity=".08"/><text class="m c0" x="92" y="178" font-size="17" fill="#ece8df">o</text><text class="m c1" x="102.2" y="178" font-size="17" fill="#ece8df">b</text><text class="m c2" x="112.4" y="178" font-size="17" fill="#ece8df">s</text><rect class="caret" x="92" y="163" width="2" height="20" fill="#b8aeff"/><g class="r0" style="animation-name:res0">
+  <path d="M36 200 h548" stroke="#ece8df" stroke-opacity=".08"/><text class="m c0" x="92" y="178" font-size="17" fill="#ece8df">s</text><text class="m c1" x="102.2" y="178" font-size="17" fill="#ece8df">t</text><text class="m c2" x="112.4" y="178" font-size="17" fill="#ece8df">r</text><text class="m c3" x="122.6" y="178" font-size="17" fill="#ece8df">e</text><text class="m c4" x="132.8" y="178" font-size="17" fill="#ece8df">a</text><text class="m c5" x="143" y="178" font-size="17" fill="#ece8df">m</text><rect class="caret" x="92" y="163" width="2" height="20" fill="#b8aeff"/><g class="r0" style="animation-name:res0">
       <rect class="sel" x="46" y="214" width="528" height="38" rx="10" fill="#8b7cff" fill-opacity=".16" stroke="#8b7cff" stroke-opacity=".55"/>
       <rect x="60" y="223" width="20" height="20" rx="6" fill="#8b7cff" fill-opacity=".3"/>
-      <text x="94" y="238" class="s" font-size="15" font-weight="500" fill="#ece8df">OBS · Switch scene</text>
-      <text x="560" y="238" text-anchor="end" class="m" font-size="11" fill="#7d7a72">action  ↵</text>
+      <text x="94" y="238" class="s" font-size="15" font-weight="500" fill="#ece8df">Start Streaming Setup</text>
+      <text x="560" y="238" text-anchor="end" class="m" font-size="11" fill="#7d7a72">workflow  ↵</text>
     </g><g class="r1" style="animation-name:res1">
       
       <rect x="60" y="267" width="20" height="20" rx="6" fill="#67e8f9" fill-opacity=".3"/>
-      <text x="94" y="282" class="s" font-size="15" font-weight="500" fill="#ece8df">Go Live</text>
-      <text x="560" y="282" text-anchor="end" class="m" font-size="11" fill="#7d7a72">workflow</text>
+      <text x="94" y="282" class="s" font-size="15" font-weight="500" fill="#ece8df">Stream</text>
+      <text x="560" y="282" text-anchor="end" class="m" font-size="11" fill="#7d7a72">page</text>
     </g><g class="r2" style="animation-name:res2">
       
       <rect x="60" y="311" width="20" height="20" rx="6" fill="#a78bfa" fill-opacity=".3"/>
-      <text x="94" y="326" class="s" font-size="15" font-weight="500" fill="#ece8df">OBS Studio</text>
-      <text x="560" y="326" text-anchor="end" class="m" font-size="11" fill="#7d7a72">application</text>
+      <text x="94" y="326" class="s" font-size="15" font-weight="500" fill="#ece8df">Stream Ending</text>
+      <text x="560" y="326" text-anchor="end" class="m" font-size="11" fill="#7d7a72">button</text>
     </g>
 </g>
 <rect x=".5" y=".5" width="619" height="379" rx="24" fill="none" stroke="#ece8df" stroke-opacity=".1"/>

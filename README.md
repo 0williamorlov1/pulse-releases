@@ -2,13 +2,12 @@
 
 <p align="center">
   <a href="https://github.com/Atall-dev/pulse-releases/releases/latest"><img src="https://img.shields.io/github/v/release/Atall-dev/pulse-releases?style=for-the-badge&label=latest&labelColor=0d0d10&color=8b7cff" alt="Latest release"></a>
-  <a href="https://github.com/Atall-dev/pulse-releases/releases"><img src="https://img.shields.io/github/downloads/Atall-dev/pulse-releases/total?style=for-the-badge&label=downloads&labelColor=0d0d10&color=67e8f9" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/windows-10%20%7C%2011%20·%20x64-ece8df?style=for-the-badge&labelColor=0d0d10" alt="Windows 10 | 11 x64">
   <a href="https://pulsedot.net"><img src="https://img.shields.io/badge/pulsedot.net-0d0d10?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Atall-dev/pulse-releases/releases/latest"><img src="https://img.shields.io/badge/⬇_Download_PULSE-8b7cff?style=for-the-badge" height="46" alt="Download PULSE"></a>
+  <a href="https://github.com/Atall-dev/pulse-releases/releases/latest"><img src="https://img.shields.io/badge/Download_PULSE-8b7cff?style=for-the-badge" height="46" alt="Download PULSE"></a>
 </p>
 
 <p align="center"><sub>Free · no account · no telemetry · updates itself</sub></p>
